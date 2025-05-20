@@ -1,0 +1,128 @@
+2025-04-06 13:24:30 INFO  r.s.s.SpringBooksApplication - Starting SpringBooksApplication using Java 23.0.2 with PID 5592 (D:\VADIM\JAVA\springBooks\target\classes started by HP in D:\VADIM\JAVA\springBooks)
+2025-04-06 13:24:30 INFO  r.s.s.SpringBooksApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:24:30 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-06 13:24:30 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-06 13:24:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-06 13:24:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 267 ms. Found 4 JPA repository interfaces.
+2025-04-06 13:24:37 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-06 13:24:37 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-06 13:24:37 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 13:24:37 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 13:24:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:24:37 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7247 ms
+2025-04-06 13:24:38 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:24:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:24:38 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:24:39 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-06 13:24:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:24:41 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@586e3488
+2025-04-06 13:24:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:24:42 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:24:42 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-06 13:24:42 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-06 13:24:44 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:24:44 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 13:24:46 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-06 13:24:48 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:24:48 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-06 13:24:50 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-06 13:24:50 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-06 13:24:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-06 13:24:50 INFO  r.s.s.SpringBooksApplication - Started SpringBooksApplication in 21.368 seconds (process running for 27.805)
+2025-04-06 13:36:38 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-06 13:36:38 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-06 13:36:38 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 13:36:38 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 13:36:38 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 13:36:38 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 13:36:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 13:36:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:36:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 13:55:49 INFO  r.s.s.SpringBooksApplication - Starting SpringBooksApplication using Java 23.0.2 with PID 2216 (D:\VADIM\JAVA\springBooks\target\classes started by HP in D:\VADIM\JAVA\springBooks)
+2025-04-06 13:55:49 INFO  r.s.s.SpringBooksApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:55:50 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-06 13:55:50 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-06 13:55:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-06 13:55:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 210 ms. Found 4 JPA repository interfaces.
+2025-04-06 13:55:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-06 13:55:55 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-06 13:55:55 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 13:55:55 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 13:55:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:55:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5156 ms
+2025-04-06 13:55:55 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:55:56 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:55:56 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:55:56 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-06 13:55:56 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:55:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7830b3f1
+2025-04-06 13:55:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:55:57 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:55:57 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-06 13:55:57 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-06 13:56:00 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:56:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 13:56:02 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-06 13:56:05 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:56:05 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-06 13:56:07 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-06 13:56:07 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-06 13:56:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-06 13:56:07 INFO  r.s.s.SpringBooksApplication - Started SpringBooksApplication in 18.766 seconds (process running for 20.743)
+2025-04-06 13:57:35 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 13:57:35 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-06 13:57:36 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2025-04-06 13:57:36 INFO  r.s.springbooks.utils.CustomCache - Retrieved entry: 3=null (Cache size: 0)
+2025-04-06 13:57:36 INFO  r.s.springbooks.utils.CustomCache - Added entry: 3=Book(id=3, title=дфд335, author=romуау4, year=1907) (Cache size: 1)
+2025-04-06 13:57:36 INFO  r.s.s.service.impl.BookServiceImpl - Книга загружена из БД и добавлена в кеш: Book(id=3, title=дфд335, author=romуау4, year=1907)
+2025-04-06 13:57:36 INFO  r.s.s.aspects.LoggingAspect - << getBookById() - result: Book(id=3, title=дфд335, author=romуау4, year=1907)
+2025-04-06 13:57:41 INFO  r.s.springbooks.utils.CustomCache - Retrieved entry: 3=Book(id=3, title=дфд335, author=romуау4, year=1907) (Cache size: 1)
+2025-04-06 13:57:41 INFO  r.s.s.service.impl.BookServiceImpl - Книга получена из кеша: Book(id=3, title=дфд335, author=romуау4, year=1907)
+2025-04-06 13:57:41 INFO  r.s.s.aspects.LoggingAspect - << getBookById() - result: Book(id=3, title=дфд335, author=romуау4, year=1907)
+2025-04-06 13:58:36 INFO  r.s.springbooks.utils.CustomCache - Removed entry: 3=Book(id=3, title=дфд335, author=romуау4, year=1907) (Cache size: 0)
+2025-04-06 13:58:36 INFO  r.s.springbooks.utils.CustomCache - Automatically removed entry: 3 (Cache size: 0)
+2025-04-06 14:00:00 INFO  r.s.s.s.impl.RequestServiceImpl - Updated 0 overdue requests
+2025-04-06 14:06:46 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-06 14:06:46 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-06 14:06:46 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 14:06:46 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 14:06:46 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 14:06:46 INFO  r.s.springbooks.utils.CustomCache - Shutting down cache executor...
+2025-04-06 14:06:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 14:06:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 14:06:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 14:06:55 INFO  r.s.s.SpringBooksApplication - Starting SpringBooksApplication using Java 23.0.2 with PID 696 (D:\VADIM\JAVA\springBooks\target\classes started by HP in D:\VADIM\JAVA\springBooks)
+2025-04-06 14:06:55 INFO  r.s.s.SpringBooksApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 14:06:56 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-06 14:06:56 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-06 14:06:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-06 14:06:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158 ms. Found 4 JPA repository interfaces.
+2025-04-06 14:07:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-04-06 14:07:02 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-06 14:07:02 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 14:07:02 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 14:07:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 14:07:02 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6586 ms
+2025-04-06 14:07:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 14:07:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 14:07:04 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 14:07:04 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-06 14:07:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 14:07:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33b8124f
+2025-04-06 14:07:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 14:07:06 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 14:07:06 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-06 14:07:06 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-04-06 14:07:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 14:07:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-06 14:07:11 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-06 14:07:13 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 14:07:13 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-06 14:07:15 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-06 14:07:15 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-06 14:07:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-04-06 14:07:16 INFO  r.s.s.SpringBooksApplication - Started SpringBooksApplication in 21.249 seconds (process running for 23.185)
+2025-04-06 14:07:19 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 14:07:19 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-06 14:07:19 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-04-06 14:07:19 INFO  r.s.s.aspects.LoggingAspect - << generateLogFileForDateAsync() - result: java.util.concurrent.CompletableFuture@33c64af7[Not completed]
